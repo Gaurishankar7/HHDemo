@@ -7,14 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51984AD22CE39CA0045A6D7 /* Ariana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51984AC22CE39C90045A6D7 /* Ariana.jpg */; };
+		A51984AF22CE40F50045A6D7 /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = A51984AE22CE40F40045A6D7 /* check-mark.png */; };
+		A51984B122CE41FC0045A6D7 /* verified.png in Resources */ = {isa = PBXBuildFile; fileRef = A51984B022CE41FC0045A6D7 /* verified.png */; };
+		A51984B322CE44390045A6D7 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = A51984B222CE44390045A6D7 /* check.png */; };
+		A524367A22CF5D3B008CF549 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A524367922CF5D3B008CF549 /* SWRevealViewController.m */; };
+		A524367C22CF62B0008CF549 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A524367B22CF62B0008CF549 /* calendar.png */; };
+		A524367E22CF62EE008CF549 /* calendar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A524367D22CF62EE008CF549 /* calendar-2.png */; };
+		A524368022CF63EA008CF549 /* album.png in Resources */ = {isa = PBXBuildFile; fileRef = A524367F22CF63EA008CF549 /* album.png */; };
+		A524368222CF64F7008CF549 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = A524368122CF64F7008CF549 /* user.png */; };
+		A524368422CF66D5008CF549 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = A524368322CF66D5008CF549 /* chat.png */; };
+		A524368622CF700E008CF549 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A524368522CF700D008CF549 /* play-button.png */; };
+		A524368822CF70D0008CF549 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A524368722CF70D0008CF549 /* heart.png */; };
+		A524368A22CF7105008CF549 /* heart-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A524368922CF7105008CF549 /* heart-2.png */; };
 		A52473ED22CCCCD7002DAB5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52473EC22CCCCD7002DAB5E /* AppDelegate.swift */; };
 		A52473EF22CCCCD7002DAB5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52473EE22CCCCD7002DAB5E /* ViewController.swift */; };
 		A52473F222CCCCD7002DAB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52473F022CCCCD7002DAB5E /* Main.storyboard */; };
 		A52473F422CCCCE0002DAB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52473F322CCCCE0002DAB5E /* Assets.xcassets */; };
 		A52473F722CCCCE0002DAB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52473F522CCCCE0002DAB5E /* LaunchScreen.storyboard */; };
+		A52473FF22CCCEAD002DAB5E /* HHSplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A52473FE22CCCEAD002DAB5E /* HHSplash.jpg */; };
+		A524740122CCEC37002DAB5E /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740022CCEC37002DAB5E /* facebook.png */; };
+		A524740522CCEDD5002DAB5E /* instagram-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740422CCEDD5002DAB5E /* instagram-2.png */; };
+		A524740722CCEE98002DAB5E /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740622CCEE98002DAB5E /* twitter.png */; };
+		A524740922CCEF2F002DAB5E /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740822CCEF2E002DAB5E /* google-plus.png */; };
+		A524740B22CCF391002DAB5E /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740A22CCF391002DAB5E /* doctor.png */; };
+		A524740D22CCFA07002DAB5E /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740C22CCFA06002DAB5E /* voice.png */; };
+		A524740F22CCFD62002DAB5E /* SelectArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51984AC22CE39C90045A6D7 /* Ariana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ariana.jpg; sourceTree = "<group>"; };
+		A51984AE22CE40F40045A6D7 /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark.png"; sourceTree = "<group>"; };
+		A51984B022CE41FC0045A6D7 /* verified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verified.png; sourceTree = "<group>"; };
+		A51984B222CE44390045A6D7 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		A524367722CF5D39008CF549 /* DemoMusicHH-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMusicHH-Bridging-Header.h"; sourceTree = "<group>"; };
+		A524367822CF5D3B008CF549 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A524367922CF5D3B008CF549 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A524367B22CF62B0008CF549 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		A524367D22CF62EE008CF549 /* calendar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-2.png"; sourceTree = "<group>"; };
+		A524367F22CF63EA008CF549 /* album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album.png; sourceTree = "<group>"; };
+		A524368122CF64F7008CF549 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		A524368322CF66D5008CF549 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		A524368522CF700D008CF549 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		A524368722CF70D0008CF549 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		A524368922CF7105008CF549 /* heart-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-2.png"; sourceTree = "<group>"; };
 		A52473E922CCCCD7002DAB5E /* DemoMusicHH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMusicHH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52473EC22CCCCD7002DAB5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52473EE22CCCCD7002DAB5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +58,14 @@
 		A52473F322CCCCE0002DAB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52473F622CCCCE0002DAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52473F822CCCCE0002DAB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52473FE22CCCEAD002DAB5E /* HHSplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HHSplash.jpg; sourceTree = "<group>"; };
+		A524740022CCEC37002DAB5E /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		A524740422CCEDD5002DAB5E /* instagram-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-2.png"; sourceTree = "<group>"; };
+		A524740622CCEE98002DAB5E /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		A524740822CCEF2E002DAB5E /* google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-plus.png"; sourceTree = "<group>"; };
+		A524740A22CCF391002DAB5E /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor.png; sourceTree = "<group>"; };
+		A524740C22CCFA06002DAB5E /* voice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice.png; sourceTree = "<group>"; };
+		A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectArtistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +99,34 @@
 			isa = PBXGroup;
 			children = (
 				A52473EC22CCCCD7002DAB5E /* AppDelegate.swift */,
+				A524367822CF5D3B008CF549 /* SWRevealViewController.h */,
+				A524367922CF5D3B008CF549 /* SWRevealViewController.m */,
 				A52473EE22CCCCD7002DAB5E /* ViewController.swift */,
+				A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */,
 				A52473F022CCCCD7002DAB5E /* Main.storyboard */,
 				A52473F322CCCCE0002DAB5E /* Assets.xcassets */,
 				A52473F522CCCCE0002DAB5E /* LaunchScreen.storyboard */,
 				A52473F822CCCCE0002DAB5E /* Info.plist */,
+				A524367F22CF63EA008CF549 /* album.png */,
+				A524368122CF64F7008CF549 /* user.png */,
+				A524368922CF7105008CF549 /* heart-2.png */,
+				A524368722CF70D0008CF549 /* heart.png */,
+				A524740022CCEC37002DAB5E /* facebook.png */,
+				A524368322CF66D5008CF549 /* chat.png */,
+				A524367B22CF62B0008CF549 /* calendar.png */,
+				A524367D22CF62EE008CF549 /* calendar-2.png */,
+				A524368522CF700D008CF549 /* play-button.png */,
+				A51984AE22CE40F40045A6D7 /* check-mark.png */,
+				A51984AC22CE39C90045A6D7 /* Ariana.jpg */,
+				A52473FE22CCCEAD002DAB5E /* HHSplash.jpg */,
+				A524740422CCEDD5002DAB5E /* instagram-2.png */,
+				A51984B222CE44390045A6D7 /* check.png */,
+				A524740A22CCF391002DAB5E /* doctor.png */,
+				A524740C22CCFA06002DAB5E /* voice.png */,
+				A51984B022CE41FC0045A6D7 /* verified.png */,
+				A524740822CCEF2E002DAB5E /* google-plus.png */,
+				A524740622CCEE98002DAB5E /* twitter.png */,
+				A524367722CF5D39008CF549 /* DemoMusicHH-Bridging-Header.h */,
 			);
 			path = DemoMusicHH;
 			sourceTree = "<group>";
@@ -96,6 +163,7 @@
 				TargetAttributes = {
 					A52473E822CCCCD7002DAB5E = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -122,9 +190,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A524740922CCEF2F002DAB5E /* google-plus.png in Resources */,
+				A51984B122CE41FC0045A6D7 /* verified.png in Resources */,
+				A524368222CF64F7008CF549 /* user.png in Resources */,
+				A51984B322CE44390045A6D7 /* check.png in Resources */,
+				A524368822CF70D0008CF549 /* heart.png in Resources */,
+				A524740722CCEE98002DAB5E /* twitter.png in Resources */,
+				A524368622CF700E008CF549 /* play-button.png in Resources */,
+				A524740D22CCFA07002DAB5E /* voice.png in Resources */,
 				A52473F722CCCCE0002DAB5E /* LaunchScreen.storyboard in Resources */,
+				A524368A22CF7105008CF549 /* heart-2.png in Resources */,
+				A524740522CCEDD5002DAB5E /* instagram-2.png in Resources */,
+				A524367C22CF62B0008CF549 /* calendar.png in Resources */,
+				A51984AD22CE39CA0045A6D7 /* Ariana.jpg in Resources */,
 				A52473F422CCCCE0002DAB5E /* Assets.xcassets in Resources */,
+				A524367E22CF62EE008CF549 /* calendar-2.png in Resources */,
+				A524368422CF66D5008CF549 /* chat.png in Resources */,
+				A524740122CCEC37002DAB5E /* facebook.png in Resources */,
+				A524368022CF63EA008CF549 /* album.png in Resources */,
+				A52473FF22CCCEAD002DAB5E /* HHSplash.jpg in Resources */,
 				A52473F222CCCCD7002DAB5E /* Main.storyboard in Resources */,
+				A524740B22CCF391002DAB5E /* doctor.png in Resources */,
+				A51984AF22CE40F50045A6D7 /* check-mark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52473EF22CCCCD7002DAB5E /* ViewController.swift in Sources */,
+				A524740F22CCFD62002DAB5E /* SelectArtistViewController.swift in Sources */,
 				A52473ED22CCCCD7002DAB5E /* AppDelegate.swift in Sources */,
+				A524367A22CF5D3B008CF549 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = DemoMusicHH/Info.plist;
@@ -291,6 +381,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AIT-Global.DemoMusicHH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMusicHH/DemoMusicHH-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = DemoMusicHH/Info.plist;
@@ -309,6 +402,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AIT-Global.DemoMusicHH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoMusicHH/DemoMusicHH-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
