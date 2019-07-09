@@ -33,6 +33,15 @@
 		A524740B22CCF391002DAB5E /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740A22CCF391002DAB5E /* doctor.png */; };
 		A524740D22CCFA07002DAB5E /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = A524740C22CCFA06002DAB5E /* voice.png */; };
 		A524740F22CCFD62002DAB5E /* SelectArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */; };
+		A52C48FA22D399E000706518 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C48F922D399E000706518 /* ArtistProfileViewController.swift */; };
+		A52C48FC22D3A47A00706518 /* music-player.png in Resources */ = {isa = PBXBuildFile; fileRef = A52C48FB22D3A47A00706518 /* music-player.png */; };
+		A5CB886222D49C6A0036F8A3 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB886122D49C6A0036F8A3 /* MusicListViewController.swift */; };
+		A5CB886422D4A2350036F8A3 /* Music1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886322D4A2340036F8A3 /* Music1.jpg */; };
+		A5CB886622D4A32E0036F8A3 /* herbie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886522D4A32E0036F8A3 /* herbie.jpg */; };
+		A5CB886822D4A5B10036F8A3 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886722D4A5B10036F8A3 /* lock.png */; };
+		A5CB886A22D4A9130036F8A3 /* padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886922D4A9130036F8A3 /* padlock.png */; };
+		A5CB886C22D4B6020036F8A3 /* 90-og.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886B22D4B6020036F8A3 /* 90-og.jpg */; };
+		A5CB886E22D4F6310036F8A3 /* EventsUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +75,15 @@
 		A524740A22CCF391002DAB5E /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor.png; sourceTree = "<group>"; };
 		A524740C22CCFA06002DAB5E /* voice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice.png; sourceTree = "<group>"; };
 		A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectArtistViewController.swift; sourceTree = "<group>"; };
+		A52C48F922D399E000706518 /* ArtistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfileViewController.swift; sourceTree = "<group>"; };
+		A52C48FB22D3A47A00706518 /* music-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-player.png"; sourceTree = "<group>"; };
+		A5CB886122D49C6A0036F8A3 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		A5CB886322D4A2340036F8A3 /* Music1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Music1.jpg; sourceTree = "<group>"; };
+		A5CB886522D4A32E0036F8A3 /* herbie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = herbie.jpg; sourceTree = "<group>"; };
+		A5CB886722D4A5B10036F8A3 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		A5CB886922D4A9130036F8A3 /* padlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock.png; sourceTree = "<group>"; };
+		A5CB886B22D4B6020036F8A3 /* 90-og.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "90-og.jpg"; sourceTree = "<group>"; };
+		A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +121,25 @@
 				A524367922CF5D3B008CF549 /* SWRevealViewController.m */,
 				A52473EE22CCCCD7002DAB5E /* ViewController.swift */,
 				A524740E22CCFD62002DAB5E /* SelectArtistViewController.swift */,
+				A52C48F922D399E000706518 /* ArtistProfileViewController.swift */,
+				A5CB886122D49C6A0036F8A3 /* MusicListViewController.swift */,
+				A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */,
 				A52473F022CCCCD7002DAB5E /* Main.storyboard */,
 				A52473F322CCCCE0002DAB5E /* Assets.xcassets */,
 				A52473F522CCCCE0002DAB5E /* LaunchScreen.storyboard */,
 				A52473F822CCCCE0002DAB5E /* Info.plist */,
 				A524367F22CF63EA008CF549 /* album.png */,
+				A5CB886322D4A2340036F8A3 /* Music1.jpg */,
 				A524368122CF64F7008CF549 /* user.png */,
+				A5CB886522D4A32E0036F8A3 /* herbie.jpg */,
 				A524368922CF7105008CF549 /* heart-2.png */,
+				A52C48FB22D3A47A00706518 /* music-player.png */,
 				A524368722CF70D0008CF549 /* heart.png */,
+				A5CB886922D4A9130036F8A3 /* padlock.png */,
 				A524740022CCEC37002DAB5E /* facebook.png */,
+				A5CB886B22D4B6020036F8A3 /* 90-og.jpg */,
 				A524368322CF66D5008CF549 /* chat.png */,
+				A5CB886722D4A5B10036F8A3 /* lock.png */,
 				A524367B22CF62B0008CF549 /* calendar.png */,
 				A524367D22CF62EE008CF549 /* calendar-2.png */,
 				A524368522CF700D008CF549 /* play-button.png */,
@@ -191,23 +218,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				A524740922CCEF2F002DAB5E /* google-plus.png in Resources */,
+				A5CB886622D4A32E0036F8A3 /* herbie.jpg in Resources */,
 				A51984B122CE41FC0045A6D7 /* verified.png in Resources */,
 				A524368222CF64F7008CF549 /* user.png in Resources */,
+				A5CB886C22D4B6020036F8A3 /* 90-og.jpg in Resources */,
 				A51984B322CE44390045A6D7 /* check.png in Resources */,
 				A524368822CF70D0008CF549 /* heart.png in Resources */,
 				A524740722CCEE98002DAB5E /* twitter.png in Resources */,
 				A524368622CF700E008CF549 /* play-button.png in Resources */,
+				A52C48FC22D3A47A00706518 /* music-player.png in Resources */,
 				A524740D22CCFA07002DAB5E /* voice.png in Resources */,
+				A5CB886A22D4A9130036F8A3 /* padlock.png in Resources */,
 				A52473F722CCCCE0002DAB5E /* LaunchScreen.storyboard in Resources */,
 				A524368A22CF7105008CF549 /* heart-2.png in Resources */,
 				A524740522CCEDD5002DAB5E /* instagram-2.png in Resources */,
 				A524367C22CF62B0008CF549 /* calendar.png in Resources */,
+				A5CB886822D4A5B10036F8A3 /* lock.png in Resources */,
 				A51984AD22CE39CA0045A6D7 /* Ariana.jpg in Resources */,
 				A52473F422CCCCE0002DAB5E /* Assets.xcassets in Resources */,
 				A524367E22CF62EE008CF549 /* calendar-2.png in Resources */,
 				A524368422CF66D5008CF549 /* chat.png in Resources */,
 				A524740122CCEC37002DAB5E /* facebook.png in Resources */,
 				A524368022CF63EA008CF549 /* album.png in Resources */,
+				A5CB886422D4A2350036F8A3 /* Music1.jpg in Resources */,
 				A52473FF22CCCEAD002DAB5E /* HHSplash.jpg in Resources */,
 				A52473F222CCCCD7002DAB5E /* Main.storyboard in Resources */,
 				A524740B22CCF391002DAB5E /* doctor.png in Resources */,
@@ -224,8 +257,11 @@
 			files = (
 				A52473EF22CCCCD7002DAB5E /* ViewController.swift in Sources */,
 				A524740F22CCFD62002DAB5E /* SelectArtistViewController.swift in Sources */,
+				A5CB886222D49C6A0036F8A3 /* MusicListViewController.swift in Sources */,
 				A52473ED22CCCCD7002DAB5E /* AppDelegate.swift in Sources */,
+				A52C48FA22D399E000706518 /* ArtistProfileViewController.swift in Sources */,
 				A524367A22CF5D3B008CF549 /* SWRevealViewController.m in Sources */,
+				A5CB886E22D4F6310036F8A3 /* EventsUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
