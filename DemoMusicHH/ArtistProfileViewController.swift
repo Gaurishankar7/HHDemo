@@ -24,14 +24,17 @@ class ArtistProfileViewController: UIViewController, UITabBarDelegate {
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         print("Selected item \(item.tag)")
         
-        if(item.tag == 2){
+        if(item.tag == 0){
+            let displayVC : MediaEventsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MediaEventsViewController") as! MediaEventsViewController
+            self.present(displayVC, animated: true, completion: nil)
+        }else if(item.tag == 2){
             let displayVC : MusicListViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MusicListViewController") as! MusicListViewController
             self.present(displayVC, animated: true, completion: nil)
-        }//else if(item.tag == 2){
-//            let displayVC : OrderSummeryViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "OrderSummeryViewController") as! OrderSummeryViewController
-//            self.present(displayVC, animated: true, completion: nil)
-//        }
-        
+        }else if(item.tag == 1){
+            let displayVC : EventsUpViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EventsUpViewController") as! EventsUpViewController
+            self.present(displayVC, animated: true, completion: nil)
+        }
+    
         
     }
     
