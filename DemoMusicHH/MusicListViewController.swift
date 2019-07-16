@@ -20,7 +20,7 @@ class YourCellMusic: UICollectionViewCell{
 
 
 
-class MusicListViewController: UIViewController, UICollectionViewDataSource, UITabBarDelegate {
+class MusicListViewController: UIViewController, UICollectionViewDataSource, UITabBarDelegate, UICollectionViewDelegate {
    
 
     @IBOutlet weak var collectionViewMusic: UICollectionView!
@@ -62,6 +62,19 @@ class MusicListViewController: UIViewController, UICollectionViewDataSource, UIT
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        print(indexPath.row)
+        if (indexPath.row == 1) || (indexPath.row == 0) {
+            
+            let displayVC : MusicPlayViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MusicPlayViewController") as! MusicPlayViewController
+            self.present(displayVC, animated: true, completion: nil)
+        }else{
+            let displayVC : UserProfileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "UserProfileViewController") as! UserProfileViewController
+            self.present(displayVC, animated: true, completion: nil)
+        }
+    }
+    
     //MARK: UITabBarDelegate
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         print("Selected item \(item.tag)")
@@ -73,7 +86,7 @@ class MusicListViewController: UIViewController, UICollectionViewDataSource, UIT
             let displayVC : EventsUpViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EventsUpViewController") as! EventsUpViewController
             self.present(displayVC, animated: true, completion: nil)
         }else if(item.tag == 0){
-            let displayVC : ArtistProfileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ArtistProfileViewController") as! ArtistProfileViewController
+            let displayVC : MediaEventsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MediaEventsViewController") as! MediaEventsViewController
             self.present(displayVC, animated: true, completion: nil)
         }
         

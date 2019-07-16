@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A518801C22D774A600EE4112 /* MusicList.png in Resources */ = {isa = PBXBuildFile; fileRef = A518801B22D774A600EE4112 /* MusicList.png */; };
+		A518801E22D7762800EE4112 /* PlayMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = A518801D22D7762700EE4112 /* PlayMusic.png */; };
+		A518802022D7793D00EE4112 /* MusicPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518801F22D7793D00EE4112 /* MusicPlayViewController.swift */; };
+		A518802222D77F2900EE4112 /* Membeship.png in Resources */ = {isa = PBXBuildFile; fileRef = A518802122D77F2800EE4112 /* Membeship.png */; };
+		A518802422D77FFF00EE4112 /* user-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A518802322D77FFE00EE4112 /* user-2.png */; };
+		A518802622D7821200EE4112 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518802522D7821200EE4112 /* UserProfileViewController.swift */; };
 		A51984AD22CE39CA0045A6D7 /* Ariana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51984AC22CE39C90045A6D7 /* Ariana.jpg */; };
 		A51984AF22CE40F50045A6D7 /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = A51984AE22CE40F40045A6D7 /* check-mark.png */; };
 		A51984B122CE41FC0045A6D7 /* verified.png in Resources */ = {isa = PBXBuildFile; fileRef = A51984B022CE41FC0045A6D7 /* verified.png */; };
@@ -45,9 +51,22 @@
 		A5CB886A22D4A9130036F8A3 /* padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886922D4A9130036F8A3 /* padlock.png */; };
 		A5CB886C22D4B6020036F8A3 /* 90-og.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5CB886B22D4B6020036F8A3 /* 90-og.jpg */; };
 		A5CB886E22D4F6310036F8A3 /* EventsUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */; };
+		A5EE6D7F22D8DD0900765532 /* imgRoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D7E22D8DD0700765532 /* imgRoc.jpg */; };
+		A5EE6D8322D8DE5C00765532 /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8222D8DE5C00765532 /* slider.png */; };
+		A5EE6D8522D8E09300765532 /* back-for.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8422D8E09200765532 /* back-for.png */; };
+		A5EE6D8722D8E09800765532 /* fast-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8622D8E09700765532 /* fast-forward.png */; };
+		A5EE6D8922D8E09F00765532 /* music-player-play.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8822D8E09F00765532 /* music-player-play.png */; };
+		A5EE6D8B22D8E26100765532 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8A22D8E26100765532 /* speaker.png */; };
+		A5EE6D8D22D8E26D00765532 /* speaker-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EE6D8C22D8E26D00765532 /* speaker-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A518801B22D774A600EE4112 /* MusicList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicList.png; sourceTree = "<group>"; };
+		A518801D22D7762700EE4112 /* PlayMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayMusic.png; sourceTree = "<group>"; };
+		A518801F22D7793D00EE4112 /* MusicPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayViewController.swift; sourceTree = "<group>"; };
+		A518802122D77F2800EE4112 /* Membeship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Membeship.png; sourceTree = "<group>"; };
+		A518802322D77FFE00EE4112 /* user-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-2.png"; sourceTree = "<group>"; };
+		A518802522D7821200EE4112 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		A51984AC22CE39C90045A6D7 /* Ariana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ariana.jpg; sourceTree = "<group>"; };
 		A51984AE22CE40F40045A6D7 /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark.png"; sourceTree = "<group>"; };
 		A51984B022CE41FC0045A6D7 /* verified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verified.png; sourceTree = "<group>"; };
@@ -90,6 +109,13 @@
 		A5CB886922D4A9130036F8A3 /* padlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock.png; sourceTree = "<group>"; };
 		A5CB886B22D4B6020036F8A3 /* 90-og.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "90-og.jpg"; sourceTree = "<group>"; };
 		A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUpViewController.swift; sourceTree = "<group>"; };
+		A5EE6D7E22D8DD0700765532 /* imgRoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgRoc.jpg; sourceTree = "<group>"; };
+		A5EE6D8222D8DE5C00765532 /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		A5EE6D8422D8E09200765532 /* back-for.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-for.png"; sourceTree = "<group>"; };
+		A5EE6D8622D8E09700765532 /* fast-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast-forward.png"; sourceTree = "<group>"; };
+		A5EE6D8822D8E09F00765532 /* music-player-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-player-play.png"; sourceTree = "<group>"; };
+		A5EE6D8A22D8E26100765532 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		A5EE6D8C22D8E26D00765532 /* speaker-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +157,26 @@
 				A5CB886122D49C6A0036F8A3 /* MusicListViewController.swift */,
 				A5CB886D22D4F6310036F8A3 /* EventsUpViewController.swift */,
 				A59CC4F222D644D9008522AF /* MediaEventsViewController.swift */,
+				A518801F22D7793D00EE4112 /* MusicPlayViewController.swift */,
+				A518802522D7821200EE4112 /* UserProfileViewController.swift */,
 				A52473F022CCCCD7002DAB5E /* Main.storyboard */,
 				A52473F322CCCCE0002DAB5E /* Assets.xcassets */,
 				A52473F522CCCCE0002DAB5E /* LaunchScreen.storyboard */,
 				A52473F822CCCCE0002DAB5E /* Info.plist */,
 				A524367F22CF63EA008CF549 /* album.png */,
 				A5CB886322D4A2340036F8A3 /* Music1.jpg */,
+				A5EE6D8422D8E09200765532 /* back-for.png */,
+				A518802122D77F2800EE4112 /* Membeship.png */,
+				A5EE6D8622D8E09700765532 /* fast-forward.png */,
+				A518801D22D7762700EE4112 /* PlayMusic.png */,
+				A518802322D77FFE00EE4112 /* user-2.png */,
+				A5EE6D7E22D8DD0700765532 /* imgRoc.jpg */,
+				A5EE6D8822D8E09F00765532 /* music-player-play.png */,
 				A524368122CF64F7008CF549 /* user.png */,
+				A5EE6D8222D8DE5C00765532 /* slider.png */,
+				A5EE6D8A22D8E26100765532 /* speaker.png */,
+				A5EE6D8C22D8E26D00765532 /* speaker-2.png */,
+				A518801B22D774A600EE4112 /* MusicList.png */,
 				A5CB886522D4A32E0036F8A3 /* herbie.jpg */,
 				A524368922CF7105008CF549 /* heart-2.png */,
 				A52C48FB22D3A47A00706518 /* music-player.png */,
@@ -229,26 +268,37 @@
 				A524740922CCEF2F002DAB5E /* google-plus.png in Resources */,
 				A5CB886622D4A32E0036F8A3 /* herbie.jpg in Resources */,
 				A51984B122CE41FC0045A6D7 /* verified.png in Resources */,
+				A518801C22D774A600EE4112 /* MusicList.png in Resources */,
 				A524368222CF64F7008CF549 /* user.png in Resources */,
 				A5CB886C22D4B6020036F8A3 /* 90-og.jpg in Resources */,
+				A5EE6D7F22D8DD0900765532 /* imgRoc.jpg in Resources */,
 				A51984B322CE44390045A6D7 /* check.png in Resources */,
 				A524368822CF70D0008CF549 /* heart.png in Resources */,
+				A5EE6D8B22D8E26100765532 /* speaker.png in Resources */,
 				A524740722CCEE98002DAB5E /* twitter.png in Resources */,
 				A524368622CF700E008CF549 /* play-button.png in Resources */,
+				A5EE6D8522D8E09300765532 /* back-for.png in Resources */,
 				A52C48FC22D3A47A00706518 /* music-player.png in Resources */,
 				A524740D22CCFA07002DAB5E /* voice.png in Resources */,
 				A5CB886A22D4A9130036F8A3 /* padlock.png in Resources */,
 				A52473F722CCCCE0002DAB5E /* LaunchScreen.storyboard in Resources */,
 				A59CC4EF22D63BD3008522AF /* allMedia.png in Resources */,
+				A5EE6D8322D8DE5C00765532 /* slider.png in Resources */,
 				A524368A22CF7105008CF549 /* heart-2.png in Resources */,
+				A5EE6D8722D8E09800765532 /* fast-forward.png in Resources */,
 				A524740522CCEDD5002DAB5E /* instagram-2.png in Resources */,
+				A518802222D77F2900EE4112 /* Membeship.png in Resources */,
+				A5EE6D8D22D8E26D00765532 /* speaker-2.png in Resources */,
 				A524367C22CF62B0008CF549 /* calendar.png in Resources */,
 				A5CB886822D4A5B10036F8A3 /* lock.png in Resources */,
 				A51984AD22CE39CA0045A6D7 /* Ariana.jpg in Resources */,
 				A52473F422CCCCE0002DAB5E /* Assets.xcassets in Resources */,
 				A524367E22CF62EE008CF549 /* calendar-2.png in Resources */,
+				A518802422D77FFF00EE4112 /* user-2.png in Resources */,
 				A524368422CF66D5008CF549 /* chat.png in Resources */,
+				A518801E22D7762800EE4112 /* PlayMusic.png in Resources */,
 				A524740122CCEC37002DAB5E /* facebook.png in Resources */,
+				A5EE6D8922D8E09F00765532 /* music-player-play.png in Resources */,
 				A524368022CF63EA008CF549 /* album.png in Resources */,
 				A5CB886422D4A2350036F8A3 /* Music1.jpg in Resources */,
 				A52473FF22CCCEAD002DAB5E /* HHSplash.jpg in Resources */,
@@ -267,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52473EF22CCCCD7002DAB5E /* ViewController.swift in Sources */,
+				A518802622D7821200EE4112 /* UserProfileViewController.swift in Sources */,
+				A518802022D7793D00EE4112 /* MusicPlayViewController.swift in Sources */,
 				A524740F22CCFD62002DAB5E /* SelectArtistViewController.swift in Sources */,
 				A5CB886222D49C6A0036F8A3 /* MusicListViewController.swift in Sources */,
 				A52473ED22CCCCD7002DAB5E /* AppDelegate.swift in Sources */,
@@ -423,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = DemoMusicHH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,7 +485,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoMusicHH/DemoMusicHH-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = DemoMusicHH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoMusicHH/DemoMusicHH-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
