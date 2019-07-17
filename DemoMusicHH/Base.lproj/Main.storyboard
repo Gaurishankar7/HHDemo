@@ -872,8 +872,8 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="153" height="149"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harbie Hancock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhK-RJ-NQH">
-                                                    <rect key="frame" x="28" y="166" width="97" height="15"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harbie Hancock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhK-RJ-NQH">
+                                                    <rect key="frame" x="0.0" y="166" width="149" height="15"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -974,7 +974,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vez-mX-Rs5"/>
-        <segue reference="fO2-cZ-SRp"/>
+        <segue reference="DcX-NF-v20"/>
         <segue reference="VaM-7E-R6J"/>
     </inferredMetricsTieBreakers>
 </document>
